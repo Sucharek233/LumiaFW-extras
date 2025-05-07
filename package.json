@@ -1,0 +1,16 @@
+{
+  "name": "lumiafw-extras",
+  "version": "1.0.0",
+  "description": "Extra features for LumiaFW site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "express": "^5.1.0"
+  }
+}
