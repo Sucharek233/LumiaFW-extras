@@ -6,7 +6,7 @@ const app = express();
 import apiRoutes from './src/routes/testing.js';
 import adminRoutes from './src/routes/admin.js';
 
-const port = 80;
+const port = process.env.PORT || 3000;
 
 app.use((req, res, next) => {
     const start = Date.now(); // Capture request start time
